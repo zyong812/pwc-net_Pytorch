@@ -1,6 +1,9 @@
 
+Modified from official published code https://github.com/NVlabs/PWC-Net/tree/master/PyTorch, adapted for pytorch > 1.0.
+
+
 #### Installation
-The code was developed using Python 2.7 & PyTorch 0.2 & CUDA 8.0. There may be a problem related to software versions. To fix the problem, you may look at the implementation in PWCNet.py and replace the syntax to match the new pytorch environment. 
+There may be a problem related to software versions. To fix the problem, you may look at the implementation in PWCNet.py and replace the syntax to match the new pytorch environment. 
 Install correlation package (if you haven't installed this package before):
 - Go to external_packages/correlation-pytorch-master/, follow the instruction in the readme.MD file there
 - You might have to run the command in make_cuda.sh line by line
@@ -64,12 +67,3 @@ or the arXiv paper
   year={2017}
 }
 ```
-
-#### Contact
-Deqing Sun (deqings@nvidia.com); Zhile Ren (jrenzhile@gmail.com)
-
-#### License 
-Copyright (C) 2018 NVIDIA Corporation. All rights reserved. 
-
-
-
