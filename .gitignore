@@ -1,2 +1,7 @@
 *.tar
 tmp
+models/correlation_package/correlation_cuda.egg-info
+models/correlation_package/build
+models/correlation_package/dist
+.ipynb_checkpoints
+
