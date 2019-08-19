@@ -38,7 +38,7 @@ if len(sys.argv) > 2:
 if len(sys.argv) > 3:
     flow_fn = sys.argv[3]
 
-pwc_model_fn = './pwc_net.pth.tar';
+pwc_model_fn = './pwc_net_chairs.pth.tar';
 
 im_all = [imread(img) for img in [im1_fn, im2_fn]]
 im_all = [im[:, :, :3] for im in im_all]
@@ -80,4 +80,5 @@ u_ *= W/ float(W_)
 v_ *= H/ float(H_)
 flo = np.dstack((u_,v_))
 
+import ipdb; ipdb.set_trace()
 writeFlowFile(flow_fn, flo)

@@ -10,7 +10,7 @@ import torch.nn as nn
 from torch.autograd import Variable
 import os
 os.environ['PYTHON_EGG_CACHE'] = 'tmp/' # a writable directory 
-from correlation_package.modules.corr import Correlation 
+from .correlation_package.correlation import Correlation
 import numpy as np
 
 
